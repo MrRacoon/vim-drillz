@@ -1,10 +1,12 @@
 SRC = src
 
+.phony = all movement jumping modes
+
 all: movement jumping modes
 
 # =============================================================================
 
-movement: basic-movement-1 basic-movement-2
+movement: movement-1 movement-2
 
 movement-1:
 	vim $(SRC)/movement-1.md
