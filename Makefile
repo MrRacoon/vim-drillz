@@ -6,10 +6,10 @@ all: movement jumping modes
 
 movement: basic-movement-1 basic-movement-2
 
-basic-movement-1:
+movement-1:
 	vim $(SRC)/movement-1.md
 
-basic-movement-2:
+movement-2:
 	vim $(SRC)/movement-2.md
 
 # =============================================================================
@@ -21,8 +21,8 @@ jumping-by-words:
 
 # =============================================================================
 
-modes: insert-beginning
+modes: insert-1
 
-insert-beginning:
+insert-1:
 	vim $(SRC)/insert-1.md
 
